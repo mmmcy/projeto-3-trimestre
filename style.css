@@ -13,44 +13,60 @@ body{
     font-family: var(--font);
     height: 100vh;
     margin: 0;
-} 
-
-header {
-    background-color: var(--primary-color);
-    text-align: center;
 }
 
-h1 {
-    font-size: 2rem;
-    color: var(--bg-color);
-    font-weight: 700;
-}
-nav {
-    display: flex;
-    justify-content: center;
-    font-weight: 400;
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--bg-color);
-    margin: 0 2rem 1rem 0rem;
-    font-size: 1.2rem;
-}
-
-header {
+header{
     background-color: var(--primary-color);
     text-align: center;
     padding: 1px;
 }
 
-nav a:hover {
+h1{
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--bg-color);
+    margin: 0rem 2rem 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
     text-decoration: underline;
     transform: scale(0.90);
     transition: transform 0.1s;
 }
 
-footer {
+.grafico{
+    margin-top: 3rem;
+}
+
+.graficos-container{
+    margin: 5rem;
+}
+
+.graficos-container__texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secundary-color) solid 2px;
+}
+
+span{
+    font-weight: bold;
+    color: var(--secundary-color);
+}
+
+footer{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,5 +76,4 @@ footer {
     height: 3rem;
     margin-top: 2rem;
 }
-
 
